@@ -194,7 +194,6 @@ public class RemindME extends JFrame {
 					        JOptionPane.showMessageDialog(Jframe, message, "RemindME", JOptionPane.PLAIN_MESSAGE);
 					        currentMSplusdateAndTimeMS += oneDayMS+oneHourMS-oneMinuteMS-(currentMSplusdateAndTimeMS-oneMinuteMS);
 					        soundclip.close();
-					        
 				        }while(true);
 					} catch (ParseException e1) {
 						// TODO Auto-generated catch block
